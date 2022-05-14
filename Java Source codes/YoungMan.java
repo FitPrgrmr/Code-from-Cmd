@@ -9,7 +9,7 @@ public class YoungMan{
 	
  	Person individual1 = new Person();	
 	individual1.setName("Jimmeh");
-	System.out.println(individual1.getName() + " Yes!!! It Works! :)");
+	System.out.println(individual1.getName() );
 	
    }	
 }
@@ -23,12 +23,8 @@ class Person{
 	this.name = newName;
 	}
 	public String getName(){
-	//System.out.println(name + " Yes! it works");
+	System.out.println(name + " Yes! it works, Yeeees!");
 	return name;
 	}
 }
-
-
-
-
 
