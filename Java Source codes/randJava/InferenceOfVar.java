@@ -1,9 +1,8 @@
 public class InferenceOfVar{
 /**
 Remeber for local variable type inference,(var) the compiler looks only at the line with the declaration.
-If the variables question and answer were omitted from being initialized within the same line of declaration,
-the compiler would throw an error message.
 
+The initial value used to determine the type of the Inference var need to be part of the same statement.
 */
 	boolean value;
 	public void doesThisCompile(boolean check){
