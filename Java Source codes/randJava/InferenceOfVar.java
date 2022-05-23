@@ -1,5 +1,8 @@
 public class InferenceOfVar{
+/**
+Remeber for local variable type inference,(var) the compiler looks only at the line with the declaration.
 
+*/
 	boolean value;
 	public void doesThisCompile(boolean check){
 	
